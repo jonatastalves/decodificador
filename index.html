@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAMOS CODIFICAR</title>
+    <script src="cifras.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Codi-FY</h1>
+    </header>
+    <main>
+        <form id="formulario">
+            <label for="mensagem"><strong>Seu texto aqui</strong></label><br>
+            <input type="text" name="mensagem" id="mensagem">
+            <section>
+                <select name="cifras" id="cifras">
+                    <option value="" disabled selected>Escolha Cifra</option>
+                    <option value="base64">Base 64</option>
+                    <option value="cesar">Cifra de César</option>
+                </select>
+                <label class="invisivel" for="passo" id="passoLabel">Passo: </label>
+                <input class="invisivel" type="number" id="passoInput">
+            </section>
+            <section>
+                <button id="botao">Clique aqui</button><br>
+                <input type="radio" id="codificado" name="codificar" value="codificado">
+                <label for="codificado"> Codificar</label>
+                <input type="radio" id="decodificado" name="codificar" value="decodificado">
+                <label for="decodificado"> Decodificar</label>
+            </section>
+            <section>
+                <p><strong>Resultado: </strong></p>
+                <p id="resultado"></p>
+            </section>
+        </form>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados! Copyright © 2021</p>
+    </footer>
+</body>
+</html>
