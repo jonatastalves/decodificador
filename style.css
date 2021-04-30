@@ -33,24 +33,24 @@ main{
     padding: 50px;
     font-size: 40px;
     color: #fff;
-    width: 40vw;
+    width: 35vw;
     text-align: center;
 }
 
 #mensagem{
     margin-top:15px;
-    width: 50%;
+    width: 80%;
     font-size: 30px;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 10px;
     
 }
 
 #passoInput{
     margin-top:15px;
-    width: 10%;
+    width: 15%;
     font-size: 20px;
-    border-radius: 30px;
+    border-radius: 5px;
     padding: 10px;
     justify-content: center;
 }
@@ -64,14 +64,14 @@ select{
     width: 25%;
     height: 3vw;
     font-size: 1vw;
-    border-radius: 30px;
+    border-radius: 5px;
     padding: 10px;
     
     
 }
 
 #botao{
-    width: 30%;
+    width: 40%;
     font-size: 30px;
     padding: 10px;
     border: solid 5px rgb(0, 0, 0);
@@ -90,7 +90,7 @@ select{
 }
 
 footer{
-    margin-top: 130px;
+    margin-top: 190px;
     background-color: rgb(0, 0, 0);
     color: #fff;
     padding: 30px;
